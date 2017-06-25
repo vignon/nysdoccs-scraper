@@ -1,9 +1,0 @@
-from bs4 import BeautifulSoup
-
-class Parser:
-    def __init__(self, html):
-        self.html = html
-
-    def importResults(html):
-        soup =  BeautifulSoup(html, "html.parser")
-        return soup.prettify()
