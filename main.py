@@ -25,6 +25,4 @@ data = {
 con = webConnect(url, headers, data)
 stuff = con.sendRequest()
 
-parse = Parser(stuff)
-stuffs = parse.importResults()
-print(stuffs)
+

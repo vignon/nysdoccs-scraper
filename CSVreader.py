@@ -13,4 +13,13 @@ class CSVread:
             print("I/O error({0}): {1}".format(errno, strerror))
         return
 
-     
+    def get_name(selfi, row):
+        return row[0]
+
+    def get_din(self, row):
+        return row[1]
+
+    def get_facility(self, row):
+        return row[2]
+
+
